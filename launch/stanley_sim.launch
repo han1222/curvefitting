@@ -1,0 +1,6 @@
+ <launch>
+    <node pkg="curve_fitting" name="global_map" type="global_map.py" />
+    <node pkg="curve_fitting" name="global_to_local" type="global_to_local.py" />
+    <node pkg="curve_fitting" name="stanley" type="stanley_simulation.py" output="screen" />
+    <node pkg="curve_fitting" name="polyfitting_coeffcients" type="polyfitting_sim.py" />
+</launch>
